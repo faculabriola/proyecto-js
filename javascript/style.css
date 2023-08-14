@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+    border: 5px solid black;
+    height: 80px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.teams-title{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.team-container{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 50px;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+}
