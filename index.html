@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de tareas</title>
-    <link rel="stylesheet" href="./proyecto_js/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <header>
     <div class="header">
@@ -13,9 +13,15 @@
     </div>
   </header>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <div class="container">
       <div class="form">
-        <input type="text" class="input" placeholder="Escribe tu tarea aqui" />
+        <input
+          type="text"
+          class="input"
+          placeholder="Escribe tu tarea aqui"
+          required
+        />
         <input type="submit" class="add" value="Agregar tarea" />
       </div>
       <div class="tasks"></div>
